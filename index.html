@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>퍼스널 트레이닝 프로그램</title>
+<title>불씨 · 매일의 운동</title>
 <link rel="icon" type="image/svg+xml" href="icon.svg">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="트레이닝">
+<meta name="apple-mobile-web-app-title" content="불씨">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#26232F">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +24,9 @@
 body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans KR",system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
 .wrap{max-width:780px;margin:0 auto;padding:20px 16px 60px}
 header h1{font-size:22px;margin:4px 0 2px;font-weight:800;letter-spacing:-.3px}
+h1.brand{display:flex;align-items:center;gap:10px;font-size:26px;letter-spacing:-.5px}
+h1.brand img{border-radius:9px;flex:0 0 auto}
+h1.brand small{font-size:13.5px;font-weight:500;color:var(--sub);letter-spacing:0;align-self:flex-end;padding-bottom:4px}
 header p{margin:0;color:var(--sub);font-size:13.5px}
 .badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .badge{font-size:12px;background:var(--soft);color:var(--acc);padding:3px 9px;border-radius:999px;font-weight:600}
@@ -147,7 +150,7 @@ td.m{white-space:nowrap;color:var(--sub);font-size:13px}
 </svg>
 <div class="wrap">
   <header>
-    <h1>퍼스널 트레이닝 프로그램</h1>
+    <h1 class="brand"><img src="icon.svg" alt="" width="34" height="34">불씨<small>매일의 운동</small></h1>
     <p>발목 강화 우선 · 저충격 유산소 · 맨몸 근력 | 2026.11.16(월) 시작</p>
     <div class="badges">
       <span class="badge">푸시업 기준 12개 → 목표 20개</span>
